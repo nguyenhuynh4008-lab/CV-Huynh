@@ -1,0 +1,28 @@
+@media (max-width: 1023px) and (min-width: 740px) {
+}
+
+@media (max-width: 739px) {
+    header {
+        display: block;
+    }
+
+    header img {
+        margin-left: 32px;
+        margin-top: 32px;
+        /* text-align: center; */
+    }
+
+    #name {
+        margin-top: 0;
+    }
+
+    .about {
+        text-align: left;
+        padding-left: 16px;
+        padding-bottom: 1px;
+    }
+
+    main {
+        display: block;
+    }
+}

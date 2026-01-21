@@ -1,0 +1,109 @@
+* {
+    font-family:
+        Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+body {
+    color: rgb(73, 108, 146);
+    margin: 0;
+}
+
+:root {
+    --color-bg: #dff1e4;
+    --color-bg-text: rgb(250, 246, 198);
+    --color-orange: rgb(255, 136, 29);
+}
+
+header {
+    display: flex;
+    background-color: var(--color-bg);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+header img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 32px;
+}
+
+.about {
+    align-self: center;
+}
+
+#name {
+    color: var(--color-orange);
+    font-size: 38px;
+}
+
+#major {
+    font-size: 24px;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    flex: 1;
+    min-width: 335px;
+}
+
+.right {
+    flex: 2;
+}
+
+.section {
+    position: relative;
+}
+
+.content {
+    margin: 10px;
+    /* width: 25%; */
+    border-radius: 10px;
+    padding: 32px 16px 16px 16px;
+    margin-top: 48px;
+    /* min-width: 300px; */
+}
+
+.section .title {
+    color: var(--color-orange);
+    border-radius: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 26px;
+    /* bottom: 32px; */
+    top: -32px;
+    padding: 8px 14px;
+}
+
+.left .content {
+    background-color: var(--color-bg);
+}
+
+.left .section .title {
+    background-color: var(--color-bg-text);
+}
+
+.left .info i {
+    padding: 4px;
+    background-color: var(--color-orange);
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+    height: 17px;
+}
+
+.right .content {
+    background-color: var(--color-bg-text);
+}
+
+.right .section .title {
+    background-color: var(--color-bg);
+}
+
+.section p,
+.section li {
+    text-align: justify;
+    line-height: 1.4;
+}
